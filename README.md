@@ -294,30 +294,31 @@ A solução pode ser evoluída futuramente com:
 
 ---
 
-##  Evidências
+## Evidências
 
-### Função AWS Lambda
+### AWS Lambda
 
-> Adicione aqui uma captura de tela da `WordCountFunction`.
+A função `WordCountFunction` foi configurada em Python para processar automaticamente os arquivos `.txt` enviados ao Amazon S3.
 
-```text
-docs/images/lambda-function.png
-```
+![AWS Lambda - WordCountFunction](docs/images/lambda-function.png)
 
-### Arquitetura
+---
 
-> Adicione aqui uma captura de tela mostrando a integração S3 → Lambda.
+### Código Python
 
-```text
-docs/images/aws-architecture.png
-```
+Implementação da função responsável por ler o arquivo no S3, realizar a contagem das palavras e publicar o resultado no Amazon SNS.
 
-### Resultado do teste
+![Código Python da Lambda](docs/images/lambda-code.png)
 
-> Adicione aqui uma captura do e-mail recebido pelo Amazon SNS.
+---
 
-```text
-docs/images/sns-result.png
+### Resultado enviado pelo Amazon SNS
+
+Após o processamento, o resultado da contagem é enviado automaticamente por e-mail através do tópico `WordCountTopic`.
+
+![Resultado do Amazon SNS](docs/images/sns-result.png)
+
+
 ```
 
 ---
