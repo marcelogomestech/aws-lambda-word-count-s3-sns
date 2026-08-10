@@ -62,7 +62,7 @@ O laboratório demonstra, na prática, a integração entre serviços AWS e o de
 
 ##  Serviços AWS utilizados
 
-| Serviço               | Função no projeto                                              |
+| **Serviço** | **Função no projeto** |                                              |
 | --------------------- | -------------------------------------------------------------- |
 | **AWS Lambda**        | Executa o processamento do arquivo sem necessidade de servidor |
 | **Amazon S3**         | Armazena os arquivos `.txt` utilizados como entrada            |
@@ -138,7 +138,7 @@ Uma assinatura de e-mail foi configurada e confirmada para receber os resultados
 Word Count Result
 ```
 
-**Formato da mensagem:**
+**  Formato da mensagem:**
 
 ```text
 O número de palavras no arquivo <nome-do-arquivo> é <quantidade>.
@@ -187,17 +187,17 @@ sns.publish(
 
 Foram realizados testes utilizando arquivos `.txt` com diferentes quantidades de palavras.
 
-### Teste 1
+## Testes realizados
+
+Foram realizados testes utilizando arquivos `.txt` com diferentes quantidades de palavras.
+
+### Teste de validação
 
 Arquivo:
 
-```text
-teste.txt
-```
+`teste10.txt`
 
-O primeiro teste apresentou uma diferença na quantidade esperada, levando à validação do conteúdo do arquivo e da lógica da função.
-
-### Teste 2 — Validação
+### Teste  — Validação
 
 Arquivo:
 
@@ -223,7 +223,7 @@ Resultado recebido por e-mail:
 O número de palavras no arquivo teste10.txt é 10.
 ```
 
- **Resultado validado com sucesso.**
+ **  Resultado validado com sucesso.**
 
 ---
 
@@ -343,10 +343,10 @@ Projeto desenvolvido como parte da formação prática em **AWS Cloud Computing*
 ### 🔗 Contato
 
 * LinkedIn: [linkedin.com/in/marcelogsouza](https://www.linkedin.com/in/marcelogsouza/)
+
 * GitHub: [github.com/marcelogomestech](https://github.com/marcelogomestech)
 
 ---
 
- **Se este projeto foi útil para você, considere deixar uma estrela no repositório!**
 
 ⭐ **Se este projeto foi útil para você, considere deixar uma estrela no repositório!**
